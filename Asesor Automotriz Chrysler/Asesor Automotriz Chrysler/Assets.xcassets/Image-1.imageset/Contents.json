@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "fondo640x960.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "fondo640x1136.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "fondo750x1334.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
