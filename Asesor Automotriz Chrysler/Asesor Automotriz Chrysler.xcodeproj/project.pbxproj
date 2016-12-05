@@ -695,7 +695,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Asesor Automotriz Chrysler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.solinpromex.AsesorAutomotrizChrysler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webjuarez.miasesorautomotriz;
 				PRODUCT_NAME = "Asesor Automotriz Chrysler";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pedro Villarejo App Clientes-Bridging-Header.h";
@@ -720,7 +720,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Asesor Automotriz Chrysler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.solinpromex.AsesorAutomotrizChrysler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webjuarez.miasesorautomotriz;
 				PRODUCT_NAME = "Asesor Automotriz Chrysler";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pedro Villarejo App Clientes-Bridging-Header.h";
