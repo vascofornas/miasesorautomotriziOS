@@ -95,20 +95,7 @@ class CitaServicio7: UIViewController,UITextViewDelegate,MFMessageComposeViewCon
     
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
-        
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
-        
+     
         
         
         let mailComposerVC = MFMailComposeViewController()
@@ -192,18 +179,7 @@ class CitaServicio7: UIViewController,UITextViewDelegate,MFMessageComposeViewCon
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+        
         
         
         
@@ -251,32 +227,7 @@ class CitaServicio7: UIViewController,UITextViewDelegate,MFMessageComposeViewCon
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+      
     }
     
     

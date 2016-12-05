@@ -40,18 +40,7 @@ class CostoServicio3: UIViewController,UITextFieldDelegate,UIPickerViewDataSourc
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+       
         
         
         
@@ -98,23 +87,7 @@ class CostoServicio3: UIViewController,UITextFieldDelegate,UIPickerViewDataSourc
         print("receivedHora=",receivedHora)
         print("receivedVehiculo=",receivedVehiculo)
         
-        let query = PFQuery(className: "anos")
-      
-        query.findObjectsInBackground(block: { (objects : [PFObject]?, error: NSError?) -> Void in
-            if error == nil {
-                
-                for object in objects! {
-                    
-                    print (object["ano_vehiculo"])
-                    
-                    self.pickerString.add(object["ano_vehiculo"] as! String)
-                    self.anoTextField.text = (object["ano_vehiculo"] as! String)
-                }
-                
-            }
-             self.anoPickerView.reloadAllComponents()
-             self.anoTextField.text = self.pickerString[0] as? String
-        })
+        
     
     }
     
@@ -205,20 +178,7 @@ class CostoServicio3: UIViewController,UITextFieldDelegate,UIPickerViewDataSourc
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
-        
-        
+       
         
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
@@ -264,32 +224,7 @@ class CostoServicio3: UIViewController,UITextFieldDelegate,UIPickerViewDataSourc
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+        
     }
     
     

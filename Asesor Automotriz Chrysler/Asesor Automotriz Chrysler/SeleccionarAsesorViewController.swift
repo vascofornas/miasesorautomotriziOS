@@ -8,9 +8,9 @@
 
 import UIKit
 import Parse
-import Alamofire
-import Swift
 
+import Swift
+import Alamofire
 import MessageUI
 
 class SeleccionarAsesorViewController: UIViewController, UITextFieldDelegate,UIPickerViewDataSource,UIPickerViewDelegate  {
@@ -63,37 +63,7 @@ class SeleccionarAsesorViewController: UIViewController, UITextFieldDelegate,UIP
         self.AgenciaTXT.text = self.agenciaSeleccionada;
         
         //recuperar JSON
-       
-        Alamofire.request(.GET, "http://www.miasesorautomotriz.com/php_mobile/check_asesores.php", parameters: ["agencia": self.id_agencia])
-            .responseJSON { response in
-                debugPrint(response)     // prints detailed description of all response properties
-            
-                print(response.request)  // original URL request
-                print(response.response) // URL response
-                print(response.data)     // server data
-                print(response.result)   // result of response serialization
-                
-                if let JSON = response.result.value {
-                    print("JSON: \(JSON)")
-                    self.pickerString = JSON as! NSMutableArray
-                    print("HOLAAAAA")
-                    print(self.pickerString)
-                    
-                    var num_asesores = (self.pickerString.count )
-                    
-                    if (num_asesores > 1){
-                    
-                    num_asesores = (self.pickerString.count / 2)
-                    print (num_asesores)
-                    }
-                    
-                    
-                     self.asesoresPickerView.reloadAllComponents()
-                    self.asesoresPickerView.selectRow(num_asesores, inComponent: 0, animated: true);
-                   
-                
-                }
-        }
+      
 
     
         

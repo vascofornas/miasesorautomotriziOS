@@ -59,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         // This method will be called everytime you open the app
         // Register the deviceToken on Pushbots
-        Pushbots.sharedInstance().register(onPushbots: deviceToken);
+       
     }
     
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
@@ -69,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
         //Track notification only if the application opened from Background by clicking on the notification.
         if application.applicationState == .inactive  {
-            Pushbots.sharedInstance().trackPushNotificationOpened(withPayload: userInfo);
+           
         }
         
         //The application was already active when the user got the notification, just show an alert.

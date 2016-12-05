@@ -108,7 +108,7 @@
             startingLineNumber = "46"
             endingLineNumber = "46"
             landmarkName = "botoGuardar(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -186,7 +186,7 @@
             startingLineNumber = "48"
             endingLineNumber = "48"
             landmarkName = "botoGuardar(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"

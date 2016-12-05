@@ -47,46 +47,7 @@ class Tramites4: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         self.enviadoLabel.isHidden = true
         
         myActivityIndicator.startAnimating();
-        let posts = PFObject(className: "tramites_online")
-      
-        
-                posts["nombre_cliente"] = self.receivedNombre
-                posts["email_cliente"] = self.receivedEmail
-                posts["celular_cliente"] = self.receivedCelular
-                posts["comentarios_cliente"] = self.receivedComentarios
-                posts["codigo_tramite"] = self.codigo
-        posts["tramite_cliente"] = self.receivedTramite
-        
-                posts.saveInBackground(block: { (success: Bool, error: NSError?) -> Void in
-                    if error == nil {
-                        //take user home
-                        print("data uploaded")
-                        
-                        
-                        //ENVIO DE POST REQUEST
-                        
-                        let url: URL = URL(string: "http://www.solinpromex.com/solicitud_tramite_recibida.php")!
-                        let request:NSMutableURLRequest = NSMutableURLRequest(url:url)
-                        
-                        let bodyData = "data=Tramite Online solicitado: \(self.codigo) "+"&nombre="+self.receivedNombre+"&email="+self.receivedEmail+"&celular="+self.receivedCelular+"&tramite="+self.receivedTramite+"&comentarios="+self.receivedComentarios
-                        request.httpMethod = "POST"
-                        request.httpBody = bodyData.data(using: String.Encoding.utf8);
-                        NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue.main)
-                            {
-                                (response, data, error) in
-                                print(response)
-                                
-                                self.botonContinuar.isHidden=false
-                                self.enviandoLabel.isHidden=true
-                                self.enviadoLabel.isHidden=false
-                                self.myActivityIndicator.stopAnimating()
-                                
-                        }
-                        
-                    }else {
-                        print(error)
-                    }
-        })
+       
     
     }
  
@@ -106,19 +67,7 @@ class Tramites4: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
-        
+       
         
         
         let mailComposerVC = MFMailComposeViewController()
@@ -178,19 +127,7 @@ class Tramites4: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
-        
+       
         
         
         let mailComposerVC = MFMailComposeViewController()
@@ -237,32 +174,7 @@ class Tramites4: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+      
     }
     
     

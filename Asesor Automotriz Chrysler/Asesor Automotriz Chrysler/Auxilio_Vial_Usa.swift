@@ -14,32 +14,7 @@ class Auxilio_Vial_Usa: UIViewController,UITextFieldDelegate, MFMessageComposeVi
 
     @IBAction func botonChrysler(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "82es7WyiiJ", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+     
     }
 
    
@@ -52,42 +27,7 @@ class Auxilio_Vial_Usa: UIViewController,UITextFieldDelegate, MFMessageComposeVi
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "RYEODVo2Ao", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let celularSMS: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.celular = celularSMS as! String
-            
-            print(self.celular)
-            
-            
-        })
-        let query1 = PFQuery(className: "datos_contacto")
-        query1.getObjectInBackground(withId: "G5w8G3kVBG", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let email: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.emailConsulta = email as! String
-            
-            print(self.emailConsulta)
-            
-            
-        })
-        let query2 = PFQuery(className: "datos_contacto")
-        query2.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let appleStore: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.apple = appleStore as! String
-            
-            print(self.apple)
-            
-            
-        })
+       
     
     
     
@@ -125,18 +65,7 @@ class Auxilio_Vial_Usa: UIViewController,UITextFieldDelegate, MFMessageComposeVi
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+      
         
         
         
@@ -183,33 +112,7 @@ class Auxilio_Vial_Usa: UIViewController,UITextFieldDelegate, MFMessageComposeVi
     
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
-        
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+       
     }
     @IBAction func compartirButtonTapped(_ sender: AnyObject) {
         let mailComposeViewController2 = configuredMailCompartirViewController()
@@ -223,18 +126,7 @@ class Auxilio_Vial_Usa: UIViewController,UITextFieldDelegate, MFMessageComposeVi
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+       
         
         
         

@@ -158,7 +158,7 @@ class SeleccionarAgenciaViewController: UIViewController, UITextFieldDelegate  {
             if ( urlData != nil ) {
                 let res = response as! HTTPURLResponse!;
                 
-                NSLog("Response code: %ld", res?.statusCode);
+               
                 
                 if ((res?.statusCode)! >= 200 && (res?.statusCode)! < 300)
                 {
@@ -232,9 +232,7 @@ class SeleccionarAgenciaViewController: UIViewController, UITextFieldDelegate  {
                 let alertView:UIAlertView = UIAlertView()
                 alertView.title = "Error"
                 alertView.message = "Error de acceso al servidor"
-                if let error = reponseError {
-                    alertView.message = (error.localizedDescription)
-                }
+              
                 alertView.delegate = self
                 alertView.addButton(withTitle: "OK")
                 alertView.show()

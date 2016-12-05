@@ -8,7 +8,7 @@
 
 import UIKit
 import Parse
-import Alamofire
+
 import Swift
 
 import MessageUI

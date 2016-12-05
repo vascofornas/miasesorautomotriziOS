@@ -8,13 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8019742E1C4880630027C3F0 /* CitaServicio1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019742D1C4880620027C3F0 /* CitaServicio1.swift */; };
-		802B7AC11CFE49BF000D1DCA /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802B7AB81CFE45CE000D1DCA /* Haneke.framework */; };
-		802B7AC21CFE49BF000D1DCA /* Haneke.framework in Copy Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 802B7AB81CFE45CE000D1DCA /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		802B7AC81CFF86DA000D1DCA /* MiAutoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B7AC71CFF86D9000D1DCA /* MiAutoModel.swift */; };
-		802B7ACA1CFF8842000D1DCA /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B7AC91CFF8842000D1DCA /* HomeModel.swift */; };
 		802B7ACC1CFFA36F000D1DCA /* AutosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B7ACB1CFFA36F000D1DCA /* AutosTableViewCell.swift */; };
-		802B7ACE1D00E06E000D1DCA /* Nuevo_Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B7ACD1D00E069000D1DCA /* Nuevo_Auto.swift */; };
-		802B7AD01D03575F000D1DCA /* Mi_Auto_Portada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B7ACF1D03575A000D1DCA /* Mi_Auto_Portada.swift */; };
 		8045BE2D1CC89D9300B3FE98 /* Tramites1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045BE2C1CC89D9200B3FE98 /* Tramites1.swift */; };
 		8045BE521CC9C67300B3FE98 /* Tramites2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045BE511CC9C67300B3FE98 /* Tramites2.swift */; };
 		8045BE541CC9EFA400B3FE98 /* Tramites3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045BE531CC9EFA400B3FE98 /* Tramites3.swift */; };
@@ -31,9 +25,7 @@
 		8062068C1C46E3AC00893CEA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8062068B1C46E3AB00893CEA /* libz.tbd */; };
 		8062068E1C46E3BA00893CEA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8062068D1C46E3BA00893CEA /* libsqlite3.tbd */; };
 		80676CA71C75872F00BBBF72 /* Nuevos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80676CA61C75872E00BBBF72 /* Nuevos.swift */; };
-		806A2C361D05E53D003AD693 /* Datos_de_mi_auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2C351D05E53D003AD693 /* Datos_de_mi_auto.swift */; };
 		806D39361CE3F5D300AF5815 /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D39351CE3F5D300AF5815 /* ShowSplashScreen.swift */; };
-		8075D0101CCAEB710019455D /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8075D00F1CCAEB710019455D /* Pushbots.framework */; };
 		8075D0171CCB46450019455D /* Auxilio_Vial_Mex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075D0161CCB46450019455D /* Auxilio_Vial_Mex.swift */; };
 		8075D0191CCB53B50019455D /* Auxilio_Vial_Usa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075D0181CCB53B50019455D /* Auxilio_Vial_Usa.swift */; };
 		8075D01B1CCBBD170019455D /* Aseguradoras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075D01A1CCBBD170019455D /* Aseguradoras.swift */; };
@@ -55,7 +47,6 @@
 		80BF46401C4AC59E00E2E406 /* CitaServicio5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF463F1C4AC59E00E2E406 /* CitaServicio5.swift */; };
 		80BF46421C4ACA1C00E2E406 /* CitaServicio6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF46411C4ACA1C00E2E406 /* CitaServicio6.swift */; };
 		80BF46461C4AEAFD00E2E406 /* CitaServicio7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF46451C4AEAFC00E2E406 /* CitaServicio7.swift */; };
-		80C00D3C1CECCC2A0024A4B7 /* Mi_Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C00D3B1CECCC2A0024A4B7 /* Mi_Auto.swift */; };
 		80C6637F1CE06A2100099141 /* SeleccionarAsesorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6637E1CE06A2100099141 /* SeleccionarAsesorViewController.swift */; };
 		80C6C17D1C4B6192006B68DB /* CitaServicio8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6C17C1C4B6192006B68DB /* CitaServicio8.swift */; };
 		80C6C1811C4C275F006B68DB /* CitaServicioConFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6C1801C4C275F006B68DB /* CitaServicioConFoto.swift */; };
@@ -66,112 +57,111 @@
 		80E4CF9C1C40345B0032AFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E4CF9A1C40345B0032AFA6 /* Main.storyboard */; };
 		80E4CF9E1C40345B0032AFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E4CF9D1C40345B0032AFA6 /* Assets.xcassets */; };
 		80E4CFA11C40345B0032AFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E4CF9F1C40345B0032AFA6 /* LaunchScreen.storyboard */; };
-		80E728931CE56879008D746B /* Alamofire.framework in Copy Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 80E728811CE5670B008D746B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		802B7AB71CFE45CE000D1DCA /* PBXContainerItemProxy */ = {
+		809565531DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A095C9561980418C00CD0F4C;
-			remoteInfo = "Haneke-iOS";
-		};
-		802B7AB91CFE45CE000D1DCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6393C5F71C3B229200EB1FD8;
-			remoteInfo = "Haneke-tvOS";
-		};
-		802B7ABB1CFE45CE000D1DCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A095C9611980418C00CD0F4C;
-			remoteInfo = HanekeTests;
-		};
-		802B7ABD1CFE45CE000D1DCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
-			remoteInfo = HanekeDemo;
-		};
-		802B7AC51CFE4A1C000D1DCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A095C9551980418C00CD0F4C;
-			remoteInfo = "Haneke-iOS";
-		};
-		80E728801CE5670B008D746B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
-		80E728821CE5670B008D746B /* PBXContainerItemProxy */ = {
+		809565551DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS Tests";
 		};
-		80E728841CE5670B008D746B /* PBXContainerItemProxy */ = {
+		809565571DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire OSX";
+			remoteInfo = "Alamofire macOS";
 		};
-		80E728861CE5670B008D746B /* PBXContainerItemProxy */ = {
+		809565591DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire OSX Tests";
+			remoteInfo = "Alamofire macOS Tests";
 		};
-		80E728881CE5670B008D746B /* PBXContainerItemProxy */ = {
+		8095655B1DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
 			remoteInfo = "Alamofire tvOS";
 		};
-		80E7288A1CE5670B008D746B /* PBXContainerItemProxy */ = {
+		8095655D1DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
 			remoteInfo = "Alamofire tvOS Tests";
 		};
-		80E7288C1CE5670B008D746B /* PBXContainerItemProxy */ = {
+		8095655F1DD3DDFC00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E4202FE01B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
 		};
-		80E7288E1CE56790008D746B /* PBXContainerItemProxy */ = {
+		809565611DD3DE5E00B40508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+			containerPortal = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
+		8095656A1DD3DF1C00B40508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809565641DD3DF1B00B40508 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 873E228F18AA8C7C00E7919C;
+			remoteInfo = Haneke;
+		};
+		8095656C1DD3DF1C00B40508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809565641DD3DF1B00B40508 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 873E229F18AA8C7C00E7919C;
+			remoteInfo = HanekeTests;
+		};
+		8095656E1DD3DF1C00B40508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809565641DD3DF1B00B40508 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 873E22F318AA90EF00E7919C;
+			remoteInfo = HanekeDemo;
+		};
+		809565701DD3DF2800B40508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809565641DD3DF1B00B40508 /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 873E228E18AA8C7C00E7919C;
+			remoteInfo = Haneke;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		809565631DD3DE7700B40508 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80E728921CE567EA008D746B /* Copy Frameworks (1 item) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				802B7AC21CFE49BF000D1DCA /* Haneke.framework in Copy Frameworks (1 item) */,
-				80E728931CE56879008D746B /* Alamofire.framework in Copy Frameworks (1 item) */,
 			);
 			name = "Copy Frameworks (1 item)";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,12 +170,7 @@
 
 /* Begin PBXFileReference section */
 		8019742D1C4880620027C3F0 /* CitaServicio1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio1.swift; sourceTree = "<group>"; };
-		802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../../Downloads/HanekeSwift-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
-		802B7AC71CFF86D9000D1DCA /* MiAutoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiAutoModel.swift; sourceTree = "<group>"; };
-		802B7AC91CFF8842000D1DCA /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		802B7ACB1CFFA36F000D1DCA /* AutosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutosTableViewCell.swift; sourceTree = "<group>"; };
-		802B7ACD1D00E069000D1DCA /* Nuevo_Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nuevo_Auto.swift; sourceTree = "<group>"; };
-		802B7ACF1D03575A000D1DCA /* Mi_Auto_Portada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mi_Auto_Portada.swift; sourceTree = "<group>"; };
 		8045BE2C1CC89D9200B3FE98 /* Tramites1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tramites1.swift; sourceTree = "<group>"; };
 		8045BE511CC9C67300B3FE98 /* Tramites2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tramites2.swift; sourceTree = "<group>"; };
 		8045BE531CC9EFA400B3FE98 /* Tramites3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tramites3.swift; sourceTree = "<group>"; };
@@ -202,10 +187,7 @@
 		8062068B1C46E3AB00893CEA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8062068D1C46E3BA00893CEA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		80676CA61C75872E00BBBF72 /* Nuevos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nuevos.swift; sourceTree = "<group>"; };
-		806A2C351D05E53D003AD693 /* Datos_de_mi_auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos_de_mi_auto.swift; sourceTree = "<group>"; };
 		806D39351CE3F5D300AF5815 /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
-		8075D00F1CCAEB710019455D /* Pushbots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pushbots.framework; sourceTree = "<group>"; };
-		8075D0111CCAEB870019455D /* Pedro Villarejo App Clientes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pedro Villarejo App Clientes-Bridging-Header.h"; sourceTree = "<group>"; };
 		8075D0161CCB46450019455D /* Auxilio_Vial_Mex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auxilio_Vial_Mex.swift; sourceTree = "<group>"; };
 		8075D0181CCB53B50019455D /* Auxilio_Vial_Usa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auxilio_Vial_Usa.swift; sourceTree = "<group>"; };
 		8075D01A1CCBBD170019455D /* Aseguradoras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aseguradoras.swift; sourceTree = "<group>"; };
@@ -213,6 +195,8 @@
 		8076F9761CCAE1E300BB51D0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		809348981CDD1B05008D3CC5 /* SeleccionarAgenciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionarAgenciaViewController.swift; sourceTree = "<group>"; };
 		8093489A1CDD303F008D3CC5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		809565481DD3DDF900B40508 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		809565641DD3DF1B00B40508 /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../Haneke-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
 		80A3EC4E1C48D8B000634BE0 /* CitaServicio2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio2.swift; sourceTree = "<group>"; };
 		80A44BAE1C4E103800B9F0C3 /* CitaServicioSinFoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicioSinFoto.swift; sourceTree = "<group>"; };
 		80A44BB41C4E3EBB00B9F0C3 /* Prestige.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prestige.swift; sourceTree = "<group>"; };
@@ -227,7 +211,6 @@
 		80BF463F1C4AC59E00E2E406 /* CitaServicio5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio5.swift; sourceTree = "<group>"; };
 		80BF46411C4ACA1C00E2E406 /* CitaServicio6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio6.swift; sourceTree = "<group>"; };
 		80BF46451C4AEAFC00E2E406 /* CitaServicio7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio7.swift; sourceTree = "<group>"; };
-		80C00D3B1CECCC2A0024A4B7 /* Mi_Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mi_Auto.swift; sourceTree = "<group>"; };
 		80C6637E1CE06A2100099141 /* SeleccionarAsesorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionarAsesorViewController.swift; sourceTree = "<group>"; };
 		80C6C17C1C4B6192006B68DB /* CitaServicio8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicio8.swift; sourceTree = "<group>"; };
 		80C6C1801C4C275F006B68DB /* CitaServicioConFoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaServicioConFoto.swift; sourceTree = "<group>"; };
@@ -240,7 +223,6 @@
 		80E4CF9D1C40345B0032AFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E4CFA01C40345B0032AFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80E4CFA21C40345B0032AFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80E728761CE56708008D746B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,24 +240,35 @@
 				806206821C46E36900893CEA /* CoreLocation.framework in Frameworks */,
 				806206801C46E36300893CEA /* CoreGraphics.framework in Frameworks */,
 				8062067E1C46E35400893CEA /* CFNetwork.framework in Frameworks */,
-				8075D0101CCAEB710019455D /* Pushbots.framework in Frameworks */,
 				8062067C1C46E34700893CEA /* AudioToolbox.framework in Frameworks */,
 				8062067A1C46E30400893CEA /* Parse.framework in Frameworks */,
 				806206791C46E30300893CEA /* Bolts.framework in Frameworks */,
-				802B7AC11CFE49BF000D1DCA /* Haneke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		802B7AB11CFE45C7000D1DCA /* Products */ = {
+		809565491DD3DDF900B40508 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				802B7AB81CFE45CE000D1DCA /* Haneke.framework */,
-				802B7ABA1CFE45CE000D1DCA /* Haneke.framework */,
-				802B7ABC1CFE45CE000D1DCA /* HanekeTests.xctest */,
-				802B7ABE1CFE45CE000D1DCA /* HanekeDemo.app */,
+				809565541DD3DDFC00B40508 /* Alamofire.framework */,
+				809565561DD3DDFC00B40508 /* Alamofire iOS Tests.xctest */,
+				809565581DD3DDFC00B40508 /* Alamofire.framework */,
+				8095655A1DD3DDFC00B40508 /* Alamofire macOS Tests.xctest */,
+				8095655C1DD3DDFC00B40508 /* Alamofire.framework */,
+				8095655E1DD3DDFC00B40508 /* Alamofire tvOS Tests.xctest */,
+				809565601DD3DDFC00B40508 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809565651DD3DF1B00B40508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8095656B1DD3DF1C00B40508 /* libHaneke.a */,
+				8095656D1DD3DF1C00B40508 /* HanekeTests.xctest */,
+				8095656F1DD3DF1C00B40508 /* HanekeDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,9 +276,8 @@
 		80E4CF8A1C40345A0032AFA6 = {
 			isa = PBXGroup;
 			children = (
-				802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */,
-				80E728761CE56708008D746B /* Alamofire.xcodeproj */,
-				8075D00F1CCAEB710019455D /* Pushbots.framework */,
+				809565641DD3DF1B00B40508 /* Haneke.xcodeproj */,
+				809565481DD3DDF900B40508 /* Alamofire.xcodeproj */,
 				8076F9761CCAE1E300BB51D0 /* CoreTelephony.framework */,
 				80A44BB61C4F0FC600B9F0C3 /* MessageUI.framework */,
 				8062068D1C46E3BA00893CEA /* libsqlite3.tbd */,
@@ -301,7 +293,6 @@
 				806206781C46E30300893CEA /* Parse.framework */,
 				80E4CF951C40345B0032AFA6 /* Asesor Automotriz Chrysler */,
 				80E4CF941C40345B0032AFA6 /* Products */,
-				8075D0111CCAEB870019455D /* Pedro Villarejo App Clientes-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,10 +334,6 @@
 				80D75AFA1CE18871005A60D4 /* MostrarAgenciaAsesorViewController.swift */,
 				8019742D1C4880620027C3F0 /* CitaServicio1.swift */,
 				8075D0161CCB46450019455D /* Auxilio_Vial_Mex.swift */,
-				80C00D3B1CECCC2A0024A4B7 /* Mi_Auto.swift */,
-				802B7ACF1D03575A000D1DCA /* Mi_Auto_Portada.swift */,
-				806A2C351D05E53D003AD693 /* Datos_de_mi_auto.swift */,
-				802B7ACD1D00E069000D1DCA /* Nuevo_Auto.swift */,
 				8075D01A1CCBBD170019455D /* Aseguradoras.swift */,
 				806D39351CE3F5D300AF5815 /* ShowSplashScreen.swift */,
 				8075D0181CCB53B50019455D /* Auxilio_Vial_Usa.swift */,
@@ -357,25 +344,9 @@
 				80E4CF9F1C40345B0032AFA6 /* LaunchScreen.storyboard */,
 				80E4CFA21C40345B0032AFA6 /* Info.plist */,
 				8093489A1CDD303F008D3CC5 /* Reachability.swift */,
-				802B7AC71CFF86D9000D1DCA /* MiAutoModel.swift */,
-				802B7AC91CFF8842000D1DCA /* HomeModel.swift */,
 				802B7ACB1CFFA36F000D1DCA /* AutosTableViewCell.swift */,
 			);
 			path = "Asesor Automotriz Chrysler";
-			sourceTree = "<group>";
-		};
-		80E728771CE56708008D746B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				80E728811CE5670B008D746B /* Alamofire.framework */,
-				80E728831CE5670B008D746B /* Alamofire iOS Tests.xctest */,
-				80E728851CE5670B008D746B /* Alamofire.framework */,
-				80E728871CE5670B008D746B /* Alamofire OSX Tests.xctest */,
-				80E728891CE5670B008D746B /* Alamofire.framework */,
-				80E7288B1CE5670B008D746B /* Alamofire tvOS Tests.xctest */,
-				80E7288D1CE5670B008D746B /* Alamofire.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,12 +360,13 @@
 				80E4CF901C40345A0032AFA6 /* Frameworks */,
 				80E4CF911C40345A0032AFA6 /* Resources */,
 				80E728921CE567EA008D746B /* Copy Frameworks (1 item) */,
+				809565631DD3DE7700B40508 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				802B7AC61CFE4A1C000D1DCA /* PBXTargetDependency */,
-				80E7288F1CE56790008D746B /* PBXTargetDependency */,
+				809565711DD3DF2800B40508 /* PBXTargetDependency */,
+				809565621DD3DE5E00B40508 /* PBXTargetDependency */,
 			);
 			name = "Asesor Automotriz Chrysler";
 			productName = "Pedro Villarejo App Clientes";
@@ -408,7 +380,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Modesto Vasco";
 				TargetAttributes = {
 					80E4CF921C40345A0032AFA6 = {
@@ -442,12 +414,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 80E728771CE56708008D746B /* Products */;
-					ProjectRef = 80E728761CE56708008D746B /* Alamofire.xcodeproj */;
+					ProductGroup = 809565491DD3DDF900B40508 /* Products */;
+					ProjectRef = 809565481DD3DDF900B40508 /* Alamofire.xcodeproj */;
 				},
 				{
-					ProductGroup = 802B7AB11CFE45C7000D1DCA /* Products */;
-					ProjectRef = 802B7AB01CFE45C7000D1DCA /* Haneke.xcodeproj */;
+					ProductGroup = 809565651DD3DF1B00B40508 /* Products */;
+					ProjectRef = 809565641DD3DF1B00B40508 /* Haneke.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -458,81 +430,74 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		802B7AB81CFE45CE000D1DCA /* Haneke.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Haneke.framework;
-			remoteRef = 802B7AB71CFE45CE000D1DCA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		802B7ABA1CFE45CE000D1DCA /* Haneke.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Haneke.framework;
-			remoteRef = 802B7AB91CFE45CE000D1DCA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		802B7ABC1CFE45CE000D1DCA /* HanekeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HanekeTests.xctest;
-			remoteRef = 802B7ABB1CFE45CE000D1DCA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		802B7ABE1CFE45CE000D1DCA /* HanekeDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = HanekeDemo.app;
-			remoteRef = 802B7ABD1CFE45CE000D1DCA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		80E728811CE5670B008D746B /* Alamofire.framework */ = {
+		809565541DD3DDFC00B40508 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 80E728801CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 809565531DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E728831CE5670B008D746B /* Alamofire iOS Tests.xctest */ = {
+		809565561DD3DDFC00B40508 /* Alamofire iOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 80E728821CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 809565551DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E728851CE5670B008D746B /* Alamofire.framework */ = {
+		809565581DD3DDFC00B40508 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 80E728841CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 809565571DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E728871CE5670B008D746B /* Alamofire OSX Tests.xctest */ = {
+		8095655A1DD3DDFC00B40508 /* Alamofire macOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Alamofire OSX Tests.xctest";
-			remoteRef = 80E728861CE5670B008D746B /* PBXContainerItemProxy */;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 809565591DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E728891CE5670B008D746B /* Alamofire.framework */ = {
+		8095655C1DD3DDFC00B40508 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 80E728881CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 8095655B1DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E7288B1CE5670B008D746B /* Alamofire tvOS Tests.xctest */ = {
+		8095655E1DD3DDFC00B40508 /* Alamofire tvOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Alamofire tvOS Tests.xctest";
-			remoteRef = 80E7288A1CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 8095655D1DD3DDFC00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		80E7288D1CE5670B008D746B /* Alamofire.framework */ = {
+		809565601DD3DDFC00B40508 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 80E7288C1CE5670B008D746B /* PBXContainerItemProxy */;
+			remoteRef = 8095655F1DD3DDFC00B40508 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8095656B1DD3DF1C00B40508 /* libHaneke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHaneke.a;
+			remoteRef = 8095656A1DD3DF1C00B40508 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8095656D1DD3DF1C00B40508 /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 8095656C1DD3DF1C00B40508 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8095656F1DD3DF1C00B40508 /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 8095656E1DD3DF1C00B40508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -559,13 +524,9 @@
 				80C6637F1CE06A2100099141 /* SeleccionarAsesorViewController.swift in Sources */,
 				80A44BB91C4FD28E00B9F0C3 /* CostoServicio1.swift in Sources */,
 				8075D01B1CCBBD170019455D /* Aseguradoras.swift in Sources */,
-				802B7ACA1CFF8842000D1DCA /* HomeModel.swift in Sources */,
 				80A44BBF1C4FD5AC00B9F0C3 /* CostoServicio4.swift in Sources */,
-				802B7AC81CFF86DA000D1DCA /* MiAutoModel.swift in Sources */,
-				802B7ACE1D00E06E000D1DCA /* Nuevo_Auto.swift in Sources */,
 				80E4CF991C40345B0032AFA6 /* ViewController.swift in Sources */,
 				8045BE521CC9C67300B3FE98 /* Tramites2.swift in Sources */,
-				80C00D3C1CECCC2A0024A4B7 /* Mi_Auto.swift in Sources */,
 				80676CA71C75872F00BBBF72 /* Nuevos.swift in Sources */,
 				80C6C17D1C4B6192006B68DB /* CitaServicio8.swift in Sources */,
 				8093489B1CDD303F008D3CC5 /* Reachability.swift in Sources */,
@@ -590,10 +551,8 @@
 				80D75AFB1CE18872005A60D4 /* MostrarAgenciaAsesorViewController.swift in Sources */,
 				809348991CDD1B05008D3CC5 /* SeleccionarAgenciaViewController.swift in Sources */,
 				806D39361CE3F5D300AF5815 /* ShowSplashScreen.swift in Sources */,
-				806A2C361D05E53D003AD693 /* Datos_de_mi_auto.swift in Sources */,
 				80BF463E1C4AACF400E2E406 /* CitaServicio4.swift in Sources */,
 				802B7ACC1CFFA36F000D1DCA /* AutosTableViewCell.swift in Sources */,
-				802B7AD01D03575F000D1DCA /* Mi_Auto_Portada.swift in Sources */,
 				8076F9751CCAA9D900BB51D0 /* Tramites4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,15 +560,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		802B7AC61CFE4A1C000D1DCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Haneke-iOS";
-			targetProxy = 802B7AC51CFE4A1C000D1DCA /* PBXContainerItemProxy */;
-		};
-		80E7288F1CE56790008D746B /* PBXTargetDependency */ = {
+		809565621DD3DE5E00B40508 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
-			targetProxy = 80E7288E1CE56790008D746B /* PBXContainerItemProxy */;
+			targetProxy = 809565611DD3DE5E00B40508 /* PBXContainerItemProxy */;
+		};
+		809565711DD3DF2800B40508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			targetProxy = 809565701DD3DF2800B40508 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -646,8 +605,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -691,8 +652,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -711,6 +674,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -719,17 +683,17 @@
 		80E4CFA61C40345B0032AFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Asesor Automotriz Chrysler/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solinpromex.AsesorAutomotrizChrysler;
 				PRODUCT_NAME = "Asesor Automotriz Chrysler";
@@ -744,17 +708,17 @@
 		80E4CFA71C40345B0032AFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Asesor Automotriz Chrysler/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solinpromex.AsesorAutomotrizChrysler;
 				PRODUCT_NAME = "Asesor Automotriz Chrysler";

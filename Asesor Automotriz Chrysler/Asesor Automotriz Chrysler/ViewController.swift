@@ -74,42 +74,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate,M
         
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "RYEODVo2Ao", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let celularSMS: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.celular = celularSMS as! String
-            
-            print(self.celular)
-            
      
-        })
-        let query1 = PFQuery(className: "datos_contacto")
-        query1.getObjectInBackground(withId: "G5w8G3kVBG", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let email: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.emailConsulta = email as! String
-            
-            print(self.emailConsulta)
-            
-            
-        })
-        let query2 = PFQuery(className: "datos_contacto")
-        query2.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let appleStore: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            self.apple = appleStore as! String
-            
-            print(self.apple)
-            
-            
-        })
         
     
     
@@ -160,63 +125,13 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate,M
    
     @IBAction func botonLlamarCFCredit (_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "hAC7p4L2mD", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+      
     }
     
 
     @IBAction func botonLlamarTab(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+        
     }
     
 
@@ -228,33 +143,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate,M
     
     @IBAction func botonSeminuevos(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "PfncUUYUQY", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            
-            
-            print(webNuevos)
-            
-            if let webNuevos = questionObject?.object(forKey: "dato_contacto") as? String {
-                
-                if let webCallURL = URL(string: webNuevos ) {
-                    print (webCallURL)
-                    let application = UIApplication.shared
-                    if application.canOpenURL(webCallURL) {
-                        application.openURL(webCallURL)
-                    }
-                    else{
-                        print("failed")
-                    }
-                    
-                }
-            }
-            
-            
-        })
+      
     }
     
 

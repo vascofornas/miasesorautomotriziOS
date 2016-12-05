@@ -20,38 +20,7 @@ class Prestige: UIViewController, MFMailComposeViewControllerDelegate, MFMessage
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "Zg8uzSQTul", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webPrestige: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webPrestige)
-            let url = URL(string: webPrestige as! String)
-            let request = URLRequest(url: url!)
-            self.webView.loadRequest(request)
-            
-              })
-            
-            let query2 = PFQuery(className: "datos_contacto")
-            query2.getObjectInBackground(withId: "RYEODVo2Ao", block: {
-                (questionObject: PFObject?, error: NSError?) -> Void in
-                
-                let celularSMS: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-                
-                self.celular = celularSMS as! String
-                
-                print(self.celular)
-                
-          
-
-            
-            
-            
-            
-            
-            
-        })
+   
 
         
     }
@@ -73,18 +42,7 @@ class Prestige: UIViewController, MFMailComposeViewControllerDelegate, MFMessage
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+        
         
         
         
@@ -132,32 +90,7 @@ class Prestige: UIViewController, MFMailComposeViewControllerDelegate, MFMessage
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+      
     }
     @IBAction func compartirButtonTapped(_ sender: AnyObject) {
         let mailComposeViewController2 = configuredMailCompartirViewController()
@@ -171,18 +104,6 @@ class Prestige: UIViewController, MFMailComposeViewControllerDelegate, MFMessage
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
         
         
         

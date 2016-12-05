@@ -82,19 +82,7 @@ class CitaServicioConFoto: UIViewController,UIImagePickerControllerDelegate,UINa
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
-        
+       
         
         
         let mailComposerVC = MFMailComposeViewController()
@@ -162,56 +150,7 @@ class CitaServicioConFoto: UIViewController,UIImagePickerControllerDelegate,UINa
                 print("Image not uploaded")
             }else {
                 myActivityIndicator.startAnimating();
-                let posts = PFObject(className: "citas_servicio")
-                //create an image data
-                let imageData = UIImagePNGRepresentation(self.myImageView.image!)
-                //create a parse file to store in cloud
-                let parseImageFile = PFFile(name: "uploaded_image.png", data: imageData!)
-                parseImageFile?.saveInBackground(block: { (success, error) -> Void in
-                    if success{
-                        posts["Nombre_cliente"] = self.receivedNombre
-                        posts["email_cliente"] = self.receivedEmail
-                        posts["celular_cliente"] = self.receivedCelular
-                        posts["tel_cliente"] = self.receivedTelefono
-                        posts["vehiculo_cliente"] = self.receivedVehiculo
-                        posts["tipo_cita"] = self.receivedTipo
-                        posts["comentarios"] = self.receivedComentarios
-                        posts["fecha_cita"] = self.receivedFecha
-                        posts["ano_vehiculo"] = self.receivedAno
-                        posts["hora_cita"] = self.receivedHora
-                        posts["kilometros"] = self.receivedKm
-                        posts["codigo_cita"] = self.codigo
-                        posts["foto"] = parseImageFile
-                        posts.saveInBackground(block: { (success: Bool, error: NSError?) -> Void in
-                            if error == nil {
-                                //take user home
-                                print("data uploaded")
-                                self.myActivityIndicator.stopAnimating()
-                                self.botonContinuar.isHidden=false
-                                
-                                //ENVIO DE POST REQUEST
-                                
-                                let url: URL = URL(string: "http://www.solinpromex.com/cita_recibida.php")!
-                                let request:NSMutableURLRequest = NSMutableURLRequest(url:url)
-                                
-                                
-                                let bodyData = "data=Cita Servicio solicitada CON FOTO: \(self.codigo) "+"&nombre="+self.receivedNombre+"&email="+self.receivedEmail+"&celular="+self.receivedCelular+"&telefono="+self.receivedTelefono+"&vehiculo="+self.receivedVehiculo+"&ano="+self.receivedAno+"&km="+self.receivedKm+"&comentarios="+self.receivedComentarios+"&fecha="+self.receivedFecha+"&hora="+self.receivedHora
-                                request.httpMethod = "POST"
-                                request.httpBody = bodyData.data(using: String.Encoding.utf8);
-                                NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue.main)
-                                    {
-                                        (response, data, error) in
-                                        print(response)
-                                        
-                                }
-                                
-                            }else {
-                                print(error)
-                            }
-                        })
-                    }
-                })
-            
+           
             
             
         }
@@ -258,18 +197,7 @@ class CitaServicioConFoto: UIViewController,UIImagePickerControllerDelegate,UINa
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+     
         
         
         
@@ -317,32 +245,7 @@ class CitaServicioConFoto: UIViewController,UIImagePickerControllerDelegate,UINa
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+  
     }
     
     

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5A80C27030DD6D5C6B8BD7D7C91E6D5C16348676",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5A80C27030DD6D5C6B8BD7D7C91E6D5C16348676" : 9223372036854775807,
+    "4D990F973BF5855907E720370CC8EB4B045C5201" : 9223372036854775807,
+    "91EDC1648A4FD7725ABCE49998143626D8AD6177" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4516BCE2-E208-46FD-99D1-6528DE9CE6CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5A80C27030DD6D5C6B8BD7D7C91E6D5C16348676" : "miasesorautomotriziOS\/",
+    "4D990F973BF5855907E720370CC8EB4B045C5201" : "..\/..\/Asesor%20Automotriz%20Marca%20Blanca%20iOS%20CHRYSLER\/Asesor%20Automotriz%20Chrysler",
+    "91EDC1648A4FD7725ABCE49998143626D8AD6177" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Asesor Automotriz Chrysler",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Asesor Automotriz Chrysler\/Asesor Automotriz Chrysler.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mvasco\/pedro-villarejo-app-clientes-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4D990F973BF5855907E720370CC8EB4B045C5201"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vascofornas\/miasesorautomotriziOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A80C27030DD6D5C6B8BD7D7C91E6D5C16348676"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vascofornas\/Mi-Asesor-Automotriz-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91EDC1648A4FD7725ABCE49998143626D8AD6177"
+    }
+  ]
+}

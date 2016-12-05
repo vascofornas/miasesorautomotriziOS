@@ -40,18 +40,6 @@ class CitaServicio4: UIViewController,UITextFieldDelegate,UIPickerViewDataSource
     func configuredMailCompartirViewController() -> MFMailComposeViewController {
         
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "07qMtYtPZy", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
         
         
         
@@ -98,24 +86,7 @@ class CitaServicio4: UIViewController,UITextFieldDelegate,UIPickerViewDataSource
         print("receivedHora=",receivedHora)
         print("receivedVehiculo=",receivedVehiculo)
         
-        let query = PFQuery(className: "anos")
-      
-        query.findObjectsInBackground(block: { (objects : [PFObject]?, error: NSError?) -> Void in
-            if error == nil {
-                
-                for object in objects! {
-                    
-                    print (object["ano_vehiculo"])
-                    
-                    self.pickerString.add(object["ano_vehiculo"] as! String)
-                    self.anoTextField.text = (object["ano_vehiculo"] as! String)
-                }
-                
-            }
-             self.anoPickerView.reloadAllComponents()
-             self.anoTextField.text = self.pickerString[0] as? String
-        })
-    
+        
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int
@@ -206,19 +177,7 @@ class CitaServicio4: UIViewController,UITextFieldDelegate,UIPickerViewDataSource
     
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         
-        
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "TtzeRzvZC5", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.object(forKey: "dato_contacto")
-            
-            self.emailConsulta  = webNuevos as! String
-            
-            print(webNuevos)
-            
-            
-        })
+       
         
         
         
@@ -266,32 +225,7 @@ class CitaServicio4: UIViewController,UITextFieldDelegate,UIPickerViewDataSource
     
     @IBAction func tabBotonLlamar(_ sender: AnyObject) {
         
-        let query = PFQuery(className: "datos_contacto")
-        query.getObjectInBackground(withId: "W7dTN5iDoz", block: {
-            (questionObject: PFObject?, error: NSError?) -> Void in
-            
-            let webNuevos: AnyObject! = questionObject!.value(forKey: "dato_contacto")
-            
-            print(webNuevos)
-            
-            
-            
-            if let phoneCallURL = URL(string: "tel:\(webNuevos)") {
-                let application = UIApplication.shared
-                if application.canOpenURL(phoneCallURL) {
-                    application.openURL(phoneCallURL)
-                }
-                else{
-                    print("failed")
-                }
-            }
-            
-            
-            
-            
-            
-            
-        })
+      
     }
     
     
